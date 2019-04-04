@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="hm19.css">
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+  <header id="header"><img id="header-img" src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/255px-Flag_of_India.svg.png" alt="Company logo" width="200" height="100">
+    <nav class="nav-bar">
+      <a href="#select">Select  </a>|
+      <a href="#about">About  </a>|
+      <a href="#aims">Aims  </a>
+    </nav>
+  </header>
+ <body id="body">
+   <h2><center>Student - Teacher Grievances Portal</center></h2><center><h3><center>Select  your option</center></h3>
+   
+     
+   
+   <div class="container">
+ <!-- <h2>Modal Example</h2> -->
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">School related grievance</button><br><br>
+       <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Other grievances</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Login Page</h4>
+        </div>
+        <form>
+			School Code:<br>
+				<input type="text"  required>
+			<br>
+			<br>
+			
+			Name:<br>
+				<input type="text" required>
+			<br>
+			<br>
+
+			Type of complaint:<br>
+				<select>
+					<option>Related to teacher</option>
+					<option>School Property</option>
+					<option>C</option>
+					<option>D</option>
+					<option>E</option>
+				</select>
+			<br>
+			<br>
+
+			Details of Complaint: <br>  
+				<input type="text" size="70" placeholder="write details">
+			<br>
+			<br>
+
+			<input type="submit"></input>
+		</form>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+   <br><div id="about">
+   <p ><b><h2><li>For the students</h2></b>Students will be able to voice their grievances regarding their respective schools as well as the education system. Their information will be kept confidential.</li></p>
+   <p ><b><h2><li>For the teachers</h2></b>The teachers will be able to put forward their suggestions and complaints as well regarding pay hike, education for students etc.</li></p>
+   <p ><b><h2><li>Suggestions</h2></b>People can give suggestions if they want to.</li></p></div><br><br><br>
+ <div id="aims"><br><br><div class="row">
+   <div class="column"><h2 class="heading">Making education better</h2>
+     <p> This portal helps the government to work on the flaws existing in our education system as suggested by the students and the teachers in order to ensure quality education in schools.</p>
+   </div>
+   <div class="column"><h2 class="heading">Confidentiality</h2>
+     <p>The information of the user will be kept confidential so that users don't hesitate in submitting their grievances. </p>
+   </div>
+   <div class="column"><h2 class="heading">Progress graph</h2>
+     <p> The progress related to how much work has been done and how much is left will be transparent to the users so that they can keep a track.</p>
+   </div></div><br><br>
+   <nav class="nav-bar2">
+      <a href="#header">Privacy  </a>|
+      <a href="#header">Terms  </a>|
+      <a href="#header">Contacts </a>
+    </nav>
+<br>
+<div id="footer">Copyright 2019, Student - Teacher Grievance Portal</div>
+   
