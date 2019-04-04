@@ -1,0 +1,19 @@
+{
+  "name": "hm19_the_a_team",
+  "version": "1.0.0",
+  "description": "education grevience portal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivangisrivastava0408/hm19_the_A_team.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivangisrivastava0408/hm19_the_A_team/issues"
+  },
+  "homepage": "https://github.com/shivangisrivastava0408/hm19_the_A_team#readme"
+}
