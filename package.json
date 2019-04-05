@@ -4,7 +4,8 @@
   "description": "education grevience portal",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    // "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/shivangisrivastava0408/hm19_the_A_team/issues"
   },
-  "homepage": "https://github.com/shivangisrivastava0408/hm19_the_A_team#readme"
+  "homepage": "https://github.com/shivangisrivastava0408/hm19_the_A_team#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongodb": "^3.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
 }
