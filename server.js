@@ -13,3 +13,12 @@ app.listen(port, () => {
     console.log('we are live on ' + port);
 });
 
+MongoClient.connect(db.url, {useNewUrlParser: true}, (err, database) =>{
+    if (err) return console.log(err)
+    const portal = portal.db("note-api")
+    require("./app/routes")(app, database);
+
+    app.listen(port, () => {
+        console.log("we are live on " + port);
+    });
+})
