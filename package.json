@@ -4,7 +4,6 @@
   "description": "education grevience portal",
   "main": "index.js",
   "scripts": {
-    // "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server.js"
   },
   "repository": {
@@ -20,7 +19,9 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
-    "mongodb": "^3.2.2"
+    "mongodb": "^3.2.3",
+    "mysql": "^2.16.0",
+    "save": "^2.3.3"
   },
   "devDependencies": {
     "nodemon": "^1.18.10"
